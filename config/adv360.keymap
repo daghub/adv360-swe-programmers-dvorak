@@ -201,7 +201,7 @@
       bindings = <
         &dvp_amp_pct &dvp_lbrack_7 &dvp_lbrace_5 &dvp_rbrace_3 &dvp_lpar_1 &dvp_equal_9 &tog 1                                     &mo 3 &dvp_star_0 &dvp_rpar_2 &dvp_plus_4 &dvp_rbrack_6 &dvp_excl_8 &dvp_hash_grave
         &kp TAB   &dvp_semi_colon &dvp_comma_less &dvp_dot_greater &kp P &kp Y &none                                                &none &kp F  &kp G  &kp C     &kp R    &kp L    &dvp_backslash_pipe
-        &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp LEFT            &none &kp D  &kp H  &kp T     &kp N    &kp S    &kp PG_UP
+        &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp D  &kp H  &kp T     &kp N    &kp S    &kp PG_UP
         &kp END   &dvp_apostrophe_quote &kp Q &kp J &kp K &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp M  &kp W     &kp V    &kp Z    &kp PG_DN
         &mo 2     &dvp_at_caret &dvp_hyphen_underscore &kp LEFT &kp RIGHT    &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp SPACE              &kp UP &kp DOWN  &dvp_slash_question &dvp_dollar_tilde &mo 2
       >;
@@ -211,7 +211,7 @@
       bindings = <
         &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &trans                                                           &mo 3 &kp N6 &kp KP_NUM &kp KP_EQUAL &kp KP_DIVIDE &kp KP_MULTIPLY &kp MINUS
         &kp TAB   &kp Q     &kp W    &kp E    &kp P      &kp Y  &none                                                            &none &kp F  &kp KP_N7  &kp KP_N8    &kp KP_N9     &kp KP_MINUS    &kp BSLH
-        &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp LEFT            &none &kp D  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp PG_UP
+        &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp D  &kp KP_N4  &kp KP_N5    &kp KP_N6     &kp KP_PLUS     &kp PG_UP
         &kp END   &kp Z     &kp Q    &kp J    &kp K      &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp KP_N1  &kp KP_N2    &kp KP_N3     &kp KP_ENTER    &kp PG_DN
         &mo 2     &kp RBKT  &kp LBKT &kp LEFT &kp RIGHT                &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp KP_N0              &kp UP     &kp DOWN     &kp KP_DOT    &kp GRAVE       &mo 2
       >;

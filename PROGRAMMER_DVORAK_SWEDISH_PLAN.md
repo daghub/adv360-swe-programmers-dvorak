@@ -125,7 +125,6 @@ Advantage360 physical layout:
 [kp-home]>[kp-lwin]
 [prtscr]>[caps]
 [delete]>[escape]
-[rctrl]>[left]
 [']>[pup]
 ```
 
@@ -133,8 +132,8 @@ Notes:
 
 - `[caps]>[home]` means the Advantage2 physical Caps position. On the
   Advantage360 Pro, that is the key labeled `Esc`, not the key labeled `Caps`.
-- Verify `[rctrl]>[left]` before finalizing, because it changes a modifier key
-  into a navigation key.
+- Final decision: do not preserve `[rctrl]>[left]`; the key labeled `Ctrl`
+  should remain a real right Ctrl key.
 - `[']>[pup]` means the physical quote location was used as Page Up on the
   Advantage2 baseline.
 

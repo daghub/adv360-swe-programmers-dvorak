@@ -242,6 +242,7 @@ both moved Shift keys work as Shift
 old left Shift position acts as End
 old right Shift position acts as Page Down
 arrow keys move correctly
+right Ctrl-labeled key works as Ctrl
 Ctrl, Alt, and Windows shortcuts still work
 ```
 
