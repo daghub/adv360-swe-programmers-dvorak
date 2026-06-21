@@ -184,6 +184,13 @@
           bindings = <&kp RA(MINUS)>, <&kp RA(NON_US_BACKSLASH)>;
           mods = <(MOD_LSFT|MOD_RSFT)>;
       };
+
+      dvp_hyphen_underscore: dvp_hyphen_underscore {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp FSLH>, <&kp LS(FSLH)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
     };
 
   keymap {
@@ -196,7 +203,7 @@
         &kp TAB   &dvp_semi_colon &dvp_comma_less &dvp_dot_greater &kp P &kp Y &none                                                &none &kp F  &kp G  &kp C     &kp R    &kp L    &dvp_backslash_pipe
         &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp LEFT            &none &kp D  &kp H  &kp T     &kp N    &kp S    &kp PG_UP
         &kp END   &dvp_apostrophe_quote &kp Q &kp J &kp K &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp M  &kp W     &kp V    &kp Z    &kp PG_DN
-        &mo 2     &dvp_at_caret &kp LBKT &kp LEFT &kp RIGHT                  &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp SPACE              &kp UP &kp DOWN  &dvp_slash_question &dvp_dollar_tilde &mo 2
+        &mo 2     &dvp_at_caret &dvp_hyphen_underscore &kp LEFT &kp RIGHT    &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp SPACE              &kp UP &kp DOWN  &dvp_slash_question &dvp_dollar_tilde &mo 2
       >;
     };
     keypad {

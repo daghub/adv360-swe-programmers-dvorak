@@ -152,8 +152,8 @@ Preserve the intent of these physical-key moves where applicable:
 
 Notes:
 
-- On the Advantage360 Pro, the key labeled `Caps` corresponds to the Advantage2
-  physical backslash position, so it should follow `[\]>[obrack]`.
+- On the Advantage360 Pro, the key labeled `Caps` is used for the Programmer
+  Dvorak `-`/`_` key.
 - These moves are likely tied to the old Windows Programmer Dvorak/Kinesis
   setup, so validate them carefully before baking them into the final ZMK
   layout.
