@@ -131,6 +131,8 @@ Advantage360 physical layout:
 
 Notes:
 
+- `[caps]>[home]` means the Advantage2 physical Caps position. On the
+  Advantage360 Pro, that is the key labeled `Esc`, not the key labeled `Caps`.
 - Verify `[rctrl]>[left]` before finalizing, because it changes a modifier key
   into a navigation key.
 - `[']>[pup]` means the physical quote location was used as Page Up on the
@@ -148,8 +150,13 @@ Preserve the intent of these physical-key moves where applicable:
 [intl-\]>[']
 ```
 
-These are likely tied to the old Windows Programmer Dvorak/Kinesis setup, so
-validate them carefully before baking them into the final ZMK layout.
+Notes:
+
+- On the Advantage360 Pro, the key labeled `Caps` corresponds to the Advantage2
+  physical backslash position, so it should follow `[\]>[obrack]`.
+- These moves are likely tied to the old Windows Programmer Dvorak/Kinesis
+  setup, so validate them carefully before baking them into the final ZMK
+  layout.
 
 ## Programmer Dvorak Target Behavior
 
