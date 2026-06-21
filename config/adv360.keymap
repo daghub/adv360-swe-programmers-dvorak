@@ -20,6 +20,98 @@
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
+
+      dvp_amp_pct: dvp_amp_pct {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N6)>, <&kp LS(N5)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_lbrack_7: dvp_lbrack_7 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N8)>, <&kp N7>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_lbrace_5: dvp_lbrace_5 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N7)>, <&kp N5>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_rbrace_3: dvp_rbrace_3 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N0)>, <&kp N3>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_lpar_1: dvp_lpar_1 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N8)>, <&kp N1>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_equal_9: dvp_equal_9 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N0)>, <&kp N9>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_star_0: dvp_star_0 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(BSLH)>, <&kp N0>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_rpar_2: dvp_rpar_2 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N9)>, <&kp N2>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_plus_4: dvp_plus_4 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp MINUS>, <&kp N4>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_rbrack_6: dvp_rbrack_6 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N9)>, <&kp N6>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_excl_8: dvp_excl_8 {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N1)>, <&kp N8>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_grave: dvp_grave {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <0>;
+          wait-ms = <30>;
+          tap-ms = <30>;
+          bindings = <&kp LS(EQUAL)>, <&kp SPACE>;
+      };
+
+      dvp_hash_grave: dvp_hash_grave {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N3)>, <&dvp_grave>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
     };
 
   keymap {
@@ -28,7 +120,7 @@
     default_layer {
       display-name = "Base";
       bindings = <
-        &kp EQUAL &kp N1    &kp N2   &kp N3   &kp N4     &kp N5 &tog 1                                                           &mo 3 &kp N6 &kp N7 &kp N8    &kp N9   &kp N0   &kp MINUS
+        &dvp_amp_pct &dvp_lbrack_7 &dvp_lbrace_5 &dvp_rbrace_3 &dvp_lpar_1 &dvp_equal_9 &tog 1                                     &mo 3 &dvp_star_0 &dvp_rpar_2 &dvp_plus_4 &dvp_rbrack_6 &dvp_excl_8 &dvp_hash_grave
         &kp TAB   &kp Q     &kp W    &kp E    &kp P      &kp Y  &none                                                            &none &kp F  &kp G  &kp C     &kp R    &kp L    &kp BSLH
         &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp LEFT            &none &kp D  &kp H  &kp T     &kp N    &kp S    &kp PG_UP
         &kp END   &kp Z     &kp Q    &kp J    &kp K      &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp M  &kp W     &kp V    &kp Z    &kp PG_DN
