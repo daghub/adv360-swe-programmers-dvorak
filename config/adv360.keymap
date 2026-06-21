@@ -112,6 +112,78 @@
           bindings = <&kp LS(N3)>, <&dvp_grave>;
           mods = <(MOD_LSFT|MOD_RSFT)>;
       };
+
+      dvp_slash_question: dvp_slash_question {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(N7)>, <&kp LS(MINUS)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_tilde: dvp_tilde {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <0>;
+          wait-ms = <30>;
+          tap-ms = <30>;
+          bindings = <&kp RA(RBKT)>, <&kp SPACE>;
+      };
+
+      dvp_dollar_tilde: dvp_dollar_tilde {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N4)>, <&dvp_tilde>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_caret: dvp_caret {
+          compatible = "zmk,behavior-macro";
+          #binding-cells = <0>;
+          wait-ms = <30>;
+          tap-ms = <30>;
+          bindings = <&kp LS(RBKT)>, <&kp SPACE>;
+      };
+
+      dvp_at_caret: dvp_at_caret {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(N2)>, <&dvp_caret>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_semi_colon: dvp_semi_colon {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp LS(COMMA)>, <&kp LS(DOT)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_comma_less: dvp_comma_less {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp COMMA>, <&kp NON_US_BACKSLASH>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_dot_greater: dvp_dot_greater {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp DOT>, <&kp LS(NON_US_BACKSLASH)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_apostrophe_quote: dvp_apostrophe_quote {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp BSLH>, <&kp LS(N2)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
+
+      dvp_backslash_pipe: dvp_backslash_pipe {
+          compatible = "zmk,behavior-mod-morph";
+          #binding-cells = <0>;
+          bindings = <&kp RA(MINUS)>, <&kp RA(NON_US_BACKSLASH)>;
+          mods = <(MOD_LSFT|MOD_RSFT)>;
+      };
     };
 
   keymap {
@@ -121,10 +193,10 @@
       display-name = "Base";
       bindings = <
         &dvp_amp_pct &dvp_lbrack_7 &dvp_lbrace_5 &dvp_rbrace_3 &dvp_lpar_1 &dvp_equal_9 &tog 1                                     &mo 3 &dvp_star_0 &dvp_rpar_2 &dvp_plus_4 &dvp_rbrack_6 &dvp_excl_8 &dvp_hash_grave
-        &kp TAB   &kp Q     &kp W    &kp E    &kp P      &kp Y  &none                                                            &none &kp F  &kp G  &kp C     &kp R    &kp L    &kp BSLH
+        &kp TAB   &dvp_semi_colon &dvp_comma_less &dvp_dot_greater &kp P &kp Y &none                                                &none &kp F  &kp G  &kp C     &kp R    &kp L    &dvp_slash_question
         &kp HOME  &kp A     &kp O    &kp E    &kp U      &kp I  &none           &kp LCTRL &kp LALT &kp LGUI  &kp LEFT            &none &kp D  &kp H  &kp T     &kp N    &kp S    &kp PG_UP
-        &kp END   &kp Z     &kp Q    &kp J    &kp K      &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp M  &kp W     &kp V    &kp Z    &kp PG_DN
-        &mo 2     &kp RBKT  &kp LBKT &kp LEFT &kp RIGHT                &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp SPACE              &kp UP &kp DOWN  &kp BSLH &kp GRAVE &mo 2
+        &kp END   &dvp_apostrophe_quote &kp Q &kp J &kp K &kp X                            &kp LGUI &kp PG_UP                           &kp B  &kp M  &kp W     &kp V    &kp Z    &kp PG_DN
+        &mo 2     &dvp_at_caret &kp LBKT &kp LEFT &kp RIGHT                  &kp BSPC &kp ESC   &kp LSHFT &kp RSHFT &kp ENTER &kp SPACE              &kp UP &kp DOWN  &dvp_backslash_pipe &dvp_dollar_tilde &mo 2
       >;
     };
     keypad {
