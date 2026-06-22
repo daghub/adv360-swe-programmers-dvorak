@@ -81,7 +81,9 @@ For example, the Dvorak home row uses direct keypresses such as `&kp A`,
 
 Navigation and modifier moves are also direct bindings. For example, the moved
 Shift keys are `&kp LSHFT` and `&kp RSHFT`, while the old Shift positions are
-used for `End` and `Page Down`.
+used for `End` and `Page Down`. The labeled thumb-cluster `Alt` and `Windows`
+keys are swapped so `Alt` is available on the right thumb for shortcuts such as
+`Alt+Tab`.
 
 ### Mod-Morph Behaviors
 
