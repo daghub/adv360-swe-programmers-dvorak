@@ -9,6 +9,11 @@ The layout is carried by the keyboard firmware. The operating system does not
 need the Kaufmann Programmer Dvorak keymap installed, and the laptop's built-in
 keyboard can remain ordinary Swedish QWERTY.
 
+Maintenance note: when changing the Advantage360 Pro keymap, also review
+`advantage2/qwerty.txt` and `advantage2/README.md`. The Advantage2 layout is
+maintained as a best-effort matching experience for systems using the Kaufmann
+Programmer Dvorak Windows layout.
+
 ## What The Keymap Does
 
 The Base layer implements the working text layout. It combines three things:
