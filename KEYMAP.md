@@ -83,7 +83,9 @@ Navigation and modifier moves are also direct bindings. For example, the moved
 Shift keys are `&kp LSHFT` and `&kp RSHFT`, while the old Shift positions are
 used for `End` and `Page Down`. The labeled thumb-cluster `Alt` and `Windows`
 keys are swapped so `Alt` is available on the right thumb for shortcuts such as
-`Alt+Tab`.
+`Alt+Tab`. Two redundant lower thumb keys send Windows virtual desktop cycling
+shortcuts: previous desktop is `Ctrl+Win+Left`, and next desktop is
+`Ctrl+Win+Right`.
 
 ### Mod-Morph Behaviors
 
@@ -246,6 +248,7 @@ old right Shift position acts as Page Down
 arrow keys move correctly
 right Ctrl-labeled key works as Ctrl
 Ctrl, Alt, and Windows shortcuts still work
+lower thumb desktop keys switch to previous/next Windows virtual desktop
 ```
 
 `Mod+V` prints the build date, branch fragment, commit hash, and whether the
