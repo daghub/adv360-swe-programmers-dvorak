@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1800 820" role="img" aria-labelledby="title desc">
+  <title id="title">Kinesis Advantage360 Pro Swedish prose/forms layer</title>
+  <desc id="desc">Swedish prose/forms toggle layer showing the keys that type å, ä, and ö.</desc>
+  <style>
+    .bg { fill: #f7f8fb; }
+    .key { fill: #ffffff; stroke: #d7dce5; stroke-width: 2; opacity: .58; }
+    .override { fill: #f5f3ff; stroke: #7c3aed; stroke-width: 3; }
+    .toggle { fill: #fff7ed; stroke: #f97316; stroke-width: 3; }
+    .legend { fill: #111827; font: 18px Inter, "Segoe UI", Arial, sans-serif; font-weight: 650; text-anchor: middle; dominant-baseline: middle; }
+    .muted { fill: #6b7280; font: 16px Inter, "Segoe UI", Arial, sans-serif; font-weight: 600; text-anchor: middle; dominant-baseline: middle; opacity: .72; }
+    .small { fill: #4b5563; font: 11px Inter, "Segoe UI", Arial, sans-serif; font-weight: 600; text-anchor: middle; dominant-baseline: middle; }
+    .title { fill: #111827; font: 28px Inter, "Segoe UI", Arial, sans-serif; font-weight: 750; }
+    .subtitle { fill: #4b5563; font: 15px Inter, "Segoe UI", Arial, sans-serif; }
+    .note { fill: #374151; font: 13px Inter, "Segoe UI", Arial, sans-serif; font-weight: 600; }
+  </style>
+  <rect class="bg" width="1800" height="820"/>
+  <text class="title" x="44" y="46">Swedish prose/forms layer</text>
+  <text class="subtitle" x="44" y="74">Toggle with circled 4. Only the normal Programmer Dvorak [, {, and } keys change; all other keys fall through.</text>
+
+  <g id="left-keywell" transform="translate(42 126)">
+    <rect class="key" x="0" y="0" width="102" height="70" rx="8"/><text class="muted" x="51" y="35">&amp;</text>
+    <rect class="override" x="110" y="0" width="86" height="70" rx="8"/><text class="legend" x="153" y="29">å</text><text class="small" x="153" y="53">Shift: Å</text>
+    <rect class="override" x="204" y="-20" width="86" height="70" rx="8"/><text class="legend" x="247" y="7">ä</text><text class="small" x="247" y="33">Shift: Ä</text>
+    <rect class="override" x="298" y="-20" width="86" height="70" rx="8"/><text class="legend" x="341" y="7">ö</text><text class="small" x="341" y="33">Shift: Ö</text>
+    <rect class="key" x="392" y="-20" width="86" height="70" rx="8"/><text class="muted" x="435" y="15">(</text>
+    <rect class="key" x="486" y="-20" width="86" height="70" rx="8"/><text class="muted" x="529" y="15">=</text>
+    <rect class="key" x="580" y="-20" width="86" height="70" rx="8"/><text class="muted" x="623" y="15">Kp</text>
+
+    <rect class="key" x="0" y="78" width="102" height="70" rx="8"/><text class="muted" x="51" y="113">Tab</text>
+    <rect class="key" x="110" y="78" width="86" height="70" rx="8"/><text class="muted" x="153" y="113">;</text>
+    <rect class="key" x="204" y="58" width="86" height="70" rx="8"/><text class="muted" x="247" y="93">,</text>
+    <rect class="key" x="298" y="58" width="86" height="70" rx="8"/><text class="muted" x="341" y="93">.</text>
+    <rect class="key" x="392" y="58" width="86" height="70" rx="8"/><text class="muted" x="435" y="93">P</text>
+    <rect class="key" x="486" y="58" width="86" height="70" rx="8"/><text class="muted" x="529" y="93">Y</text>
+    <rect class="key" x="580" y="58" width="86" height="70" rx="8"/><text class="muted" x="623" y="93">①</text>
+
+    <rect class="key" x="0" y="156" width="102" height="70" rx="8"/><text class="muted" x="51" y="191">Home</text>
+    <rect class="key" x="110" y="156" width="86" height="70" rx="8"/><text class="muted" x="153" y="191">A</text>
+    <rect class="key" x="204" y="136" width="86" height="70" rx="8"/><text class="muted" x="247" y="171">O</text>
+    <rect class="key" x="298" y="136" width="86" height="70" rx="8"/><text class="muted" x="341" y="171">E</text>
+    <rect class="key" x="392" y="136" width="86" height="70" rx="8"/><text class="muted" x="435" y="171">U</text>
+    <rect class="key" x="486" y="136" width="86" height="70" rx="8"/><text class="muted" x="529" y="171">I</text>
+    <rect class="key" x="580" y="136" width="86" height="70" rx="8"/><text class="muted" x="623" y="171">②</text>
+
+    <rect class="key" x="0" y="234" width="102" height="70" rx="8"/><text class="muted" x="51" y="269">End</text>
+    <rect class="key" x="110" y="234" width="86" height="70" rx="8"/><text class="muted" x="153" y="269">'</text>
+    <rect class="key" x="204" y="214" width="86" height="70" rx="8"/><text class="muted" x="247" y="249">Q</text>
+    <rect class="key" x="298" y="214" width="86" height="70" rx="8"/><text class="muted" x="341" y="249">J</text>
+    <rect class="key" x="392" y="214" width="86" height="70" rx="8"/><text class="muted" x="435" y="249">K</text>
+    <rect class="key" x="486" y="214" width="86" height="70" rx="8"/><text class="muted" x="529" y="249">X</text>
+
+    <rect class="key" x="0" y="312" width="102" height="70" rx="8"/><text class="muted" x="51" y="347">Fn</text>
+    <rect class="key" x="110" y="312" width="86" height="70" rx="8"/><text class="muted" x="153" y="347">@</text>
+    <rect class="key" x="204" y="292" width="86" height="70" rx="8"/><text class="muted" x="247" y="327">-</text>
+    <rect class="key" x="298" y="292" width="86" height="70" rx="8"/><text class="muted" x="341" y="327">←</text>
+    <rect class="key" x="392" y="292" width="86" height="70" rx="8"/><text class="muted" x="435" y="327">→</text>
+  </g>
+
+  <g id="right-keywell" transform="translate(1032 126)">
+    <rect class="key" x="0" y="-20" width="86" height="70" rx="8"/><text class="muted" x="43" y="15">Mod</text>
+    <rect class="key" x="94" y="-20" width="86" height="70" rx="8"/><text class="muted" x="137" y="15">*</text>
+    <rect class="key" x="188" y="-20" width="86" height="70" rx="8"/><text class="muted" x="231" y="15">)</text>
+    <rect class="key" x="282" y="-20" width="86" height="70" rx="8"/><text class="muted" x="325" y="15">+</text>
+    <rect class="key" x="376" y="-20" width="86" height="70" rx="8"/><text class="muted" x="419" y="15">]</text>
+    <rect class="key" x="470" y="0" width="86" height="70" rx="8"/><text class="muted" x="513" y="35">!</text>
+    <rect class="key" x="564" y="0" width="102" height="70" rx="8"/><text class="muted" x="615" y="35">#</text>
+
+    <rect class="key" x="0" y="58" width="86" height="70" rx="8"/><text class="muted" x="43" y="93">③</text>
+    <rect class="key" x="94" y="58" width="86" height="70" rx="8"/><text class="muted" x="137" y="93">F</text>
+    <rect class="key" x="188" y="58" width="86" height="70" rx="8"/><text class="muted" x="231" y="93">G</text>
+    <rect class="key" x="282" y="58" width="86" height="70" rx="8"/><text class="muted" x="325" y="93">C</text>
+    <rect class="key" x="376" y="58" width="86" height="70" rx="8"/><text class="muted" x="419" y="93">R</text>
+    <rect class="key" x="470" y="78" width="86" height="70" rx="8"/><text class="muted" x="513" y="113">L</text>
+    <rect class="key" x="564" y="78" width="102" height="70" rx="8"/><text class="muted" x="615" y="113">\</text>
+
+    <rect class="toggle" x="0" y="136" width="86" height="70" rx="8"/><text class="legend" x="43" y="163">④</text><text class="small" x="43" y="187">toggle off</text>
+    <rect class="key" x="94" y="136" width="86" height="70" rx="8"/><text class="muted" x="137" y="171">D</text>
+    <rect class="key" x="188" y="136" width="86" height="70" rx="8"/><text class="muted" x="231" y="171">H</text>
+    <rect class="key" x="282" y="136" width="86" height="70" rx="8"/><text class="muted" x="325" y="171">T</text>
+    <rect class="key" x="376" y="136" width="86" height="70" rx="8"/><text class="muted" x="419" y="171">N</text>
+    <rect class="key" x="470" y="156" width="86" height="70" rx="8"/><text class="muted" x="513" y="191">S</text>
+    <rect class="key" x="564" y="156" width="102" height="70" rx="8"/><text class="muted" x="615" y="191">PgUp</text>
+
+    <rect class="key" x="94" y="214" width="86" height="70" rx="8"/><text class="muted" x="137" y="249">B</text>
+    <rect class="key" x="188" y="214" width="86" height="70" rx="8"/><text class="muted" x="231" y="249">M</text>
+    <rect class="key" x="282" y="214" width="86" height="70" rx="8"/><text class="muted" x="325" y="249">W</text>
+    <rect class="key" x="376" y="214" width="86" height="70" rx="8"/><text class="muted" x="419" y="249">V</text>
+    <rect class="key" x="470" y="234" width="86" height="70" rx="8"/><text class="muted" x="513" y="269">Z</text>
+    <rect class="key" x="564" y="234" width="102" height="70" rx="8"/><text class="muted" x="615" y="269">PgDn</text>
+
+    <rect class="key" x="188" y="292" width="86" height="70" rx="8"/><text class="muted" x="231" y="327">↑</text>
+    <rect class="key" x="282" y="292" width="86" height="70" rx="8"/><text class="muted" x="325" y="327">↓</text>
+    <rect class="key" x="376" y="292" width="86" height="70" rx="8"/><text class="muted" x="419" y="327">/</text>
+    <rect class="key" x="470" y="312" width="86" height="70" rx="8"/><text class="muted" x="513" y="347">$</text>
+    <rect class="key" x="564" y="312" width="102" height="70" rx="8"/><text class="muted" x="615" y="347">Fn</text>
+  </g>
+
+  <g id="thumbs" transform="translate(568 518)">
+    <rect class="key" x="58" y="0" width="84" height="68" rx="8"/><text class="muted" x="100" y="34">Ctrl</text>
+    <rect class="key" x="150" y="0" width="84" height="68" rx="8"/><text class="muted" x="192" y="34">Win</text>
+    <rect class="key" x="104" y="76" width="84" height="68" rx="8"/><text class="muted" x="146" y="110">Desk</text>
+    <rect class="key" x="0" y="152" width="84" height="124" rx="8"/><text class="muted" x="42" y="214">Back</text>
+    <rect class="key" x="92" y="152" width="84" height="124" rx="8"/><text class="muted" x="134" y="214">Esc</text>
+    <rect class="key" x="184" y="152" width="84" height="124" rx="8"/><text class="muted" x="226" y="214">Shift</text>
+    <rect class="key" x="346" y="0" width="84" height="68" rx="8"/><text class="muted" x="388" y="34">Alt</text>
+    <rect class="key" x="438" y="0" width="84" height="68" rx="8"/><text class="muted" x="480" y="34">Ctrl</text>
+    <rect class="key" x="392" y="76" width="84" height="68" rx="8"/><text class="muted" x="434" y="110">Desk</text>
+    <rect class="key" x="288" y="152" width="84" height="124" rx="8"/><text class="muted" x="330" y="214">Shift</text>
+    <rect class="key" x="380" y="152" width="84" height="124" rx="8"/><text class="muted" x="422" y="214">Enter</text>
+    <rect class="key" x="472" y="152" width="84" height="124" rx="8"/><text class="muted" x="514" y="214">Space</text>
+  </g>
+
+  <g transform="translate(44 768)">
+    <rect class="override" x="0" y="-18" width="18" height="18" rx="4"/><text class="note" x="28" y="-5">Swedish letter override</text>
+    <rect class="toggle" x="226" y="-18" width="18" height="18" rx="4"/><text class="note" x="254" y="-5">layer toggle</text>
+  </g>
+</svg>

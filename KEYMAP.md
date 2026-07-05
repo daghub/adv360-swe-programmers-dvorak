@@ -44,9 +44,11 @@ The top row is Programmer Dvorak style: symbols are unshifted and numbers are
 shifted.
 
 ```text
-unshifted: $ & [ { } ( = * ) + ] ! #
-shifted:   ~ % 7 5 3 1 9 0 2 4 6 8 `
+unshifted: & [ { } ( = * ) + ] ! #
+shifted:   % 7 5 3 1 9 0 2 4 6 8 `
 ```
+
+The `$` / `~` key is on the lower-right symbol key, next to the right `Fn` key.
 
 The moved Shift keys are real ZMK Shift bindings. This is important because the
 symbol keys use modifier-aware ZMK behavior; they must see Shift as an actual
@@ -64,6 +66,15 @@ type Swedish letters:
 
 Holding either real Shift key produces the uppercase forms: `Å`, `Ä`, and `Ö`.
 Other keys fall through to the normal Base layer.
+
+## Layout Diagrams
+
+The diagrams below are static SVGs checked into `assets/`. They document the
+human-facing layout; `config/adv360.keymap` remains the source of truth.
+
+![Base layer layout](assets/keymap-base.svg)
+
+![Swedish prose/forms layer](assets/keymap-swedish-email.svg)
 
 ## Source Files
 
@@ -259,8 +270,8 @@ Caps-labeled key       -> -
 Shift + Caps-labeled   -> _
 key right of Down      -> /
 Shift + key right Down -> ?
-top row unshifted      -> $&[{}(=*)+]!#
-top row shifted        -> ~%7531902468`
+top row unshifted      -> &[{}(=*)+]!#
+top row shifted        -> %7531902468`
 ```
 
 Swedish layer smoke test:
