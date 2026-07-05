@@ -52,6 +52,19 @@ The moved Shift keys are real ZMK Shift bindings. This is important because the
 symbol keys use modifier-aware ZMK behavior; they must see Shift as an actual
 modifier, not as a macro side effect.
 
+The circled `4` hotkey toggles a Swedish prose/forms layer. On that layer, the
+physical keys that normally type Programmer Dvorak `[`, `{`, and `}` instead
+type Swedish letters:
+
+```text
+[ key -> å
+{ key -> ä
+} key -> ö
+```
+
+Holding either real Shift key produces the uppercase forms: `Å`, `Ä`, and `Ö`.
+Other keys fall through to the normal Base layer.
+
 ## Source Files
 
 The main implementation is in:
@@ -158,10 +171,16 @@ The keymap keeps the standard Advantage360-style layer structure:
 - `fn`: function-key layer.
 - `mod`: keyboard-management layer for Bluetooth selection, bootloader,
   Studio unlock, version macro, battery status, backlight, and RGB controls.
-- `extra1` through `extra4`: reserved color layers.
+- `swedish_email`: toggled by circled `4`; overrides the Programmer Dvorak
+  `[`, `{`, and `}` keys with `å`, `ä`, and `ö`.
+- `extra2` through `extra4`: reserved color layers.
 
 The `keypad` layer is not intended to be a second fully tuned Programmer Dvorak
 text layer. The Base layer is the layout that should be used for normal typing.
+
+The `swedish_email` layer has a higher layer number than `fn` and `mod`. If it
+is left on, those three Swedish letter positions continue to override the lower
+layers until circled `4` is pressed again.
 
 ## Building Firmware
 
@@ -242,6 +261,18 @@ key right of Down      -> /
 Shift + key right Down -> ?
 top row unshifted      -> $&[{}(=*)+]!#
 top row shifted        -> ~%7531902468`
+```
+
+Swedish layer smoke test:
+
+```text
+circled 4              -> toggle Swe layer on
+normal [ key           -> å
+normal { key           -> ä
+normal } key           -> ö
+Shift + those keys     -> Å Ä Ö
+circled 4              -> toggle Swe layer off
+normal [ { } keys      -> [ { }
 ```
 
 Also verify that the preserved physical moves still work:

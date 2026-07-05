@@ -54,6 +54,11 @@ Those macros are present on both the top layer and keypad layer:
 {kp-pup}>{-lctrl}{-lwin}{right}{+lwin}{+lctrl}
 ```
 
+The Advantage360 Pro Swedish prose/forms layer has no equivalent here. The
+Advantage2 setup assumes Windows is using the Kaufmann Programmer Dvorak layout,
+so the keyboard cannot rely on the host's Swedish `å`, `ä`, and `ö` key
+positions the way the Advantage360 Pro firmware does.
+
 ## Installation
 
 1. Enable Power User Mode on the Advantage2 with `Program+Shift+Esc`.
