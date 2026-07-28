@@ -239,11 +239,11 @@
     swedish_email {
       display-name = "Swe";
       bindings = <
-        &trans &kp LBKT &kp SQT &kp SEMI &trans &trans &trans                                          &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans  &trans   &trans &trans &trans                                          &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans  &trans   &trans &trans &trans        &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans  &trans   &trans &trans                      &trans &trans                     &trans &trans &trans &trans &trans &trans
-        &trans &trans   &trans  &trans   &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans &trans                                          &trans &trans &trans &trans &trans &trans &kp LBKT
+        &trans &trans &trans &trans &trans &trans &trans                                          &trans &trans &trans &trans &trans &trans &kp SQT
+        &trans &trans &trans &trans &trans &trans &trans        &trans &trans &trans &trans       &trans &trans &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans &trans                      &trans &trans                     &trans &trans &trans &trans &trans &trans
+        &trans &trans &trans &trans &trans               &trans &trans &trans &trans &trans &trans              &trans &trans &trans &kp SEMI &trans
       >;
     };
 

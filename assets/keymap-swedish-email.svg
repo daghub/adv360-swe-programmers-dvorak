@@ -15,13 +15,13 @@
   </style>
   <rect class="bg" width="1800" height="820"/>
   <text class="title" x="44" y="46">Swedish prose/forms layer</text>
-  <text class="subtitle" x="44" y="74">Toggle with circled 4. Only the normal Programmer Dvorak [, {, and } keys change; all other keys fall through.</text>
+  <text class="subtitle" x="44" y="74">Toggle with circled 4. Only the normal Programmer Dvorak #, \, and $ keys change; all other keys fall through.</text>
 
   <g id="left-keywell" transform="translate(42 126)">
     <rect class="key" x="0" y="0" width="102" height="70" rx="8"/><text class="muted" x="51" y="35">&amp;</text>
-    <rect class="override" x="110" y="0" width="86" height="70" rx="8"/><text class="legend" x="153" y="29">å</text><text class="small" x="153" y="53">Shift: Å</text>
-    <rect class="override" x="204" y="-20" width="86" height="70" rx="8"/><text class="legend" x="247" y="7">ä</text><text class="small" x="247" y="33">Shift: Ä</text>
-    <rect class="override" x="298" y="-20" width="86" height="70" rx="8"/><text class="legend" x="341" y="7">ö</text><text class="small" x="341" y="33">Shift: Ö</text>
+    <rect class="key" x="110" y="0" width="86" height="70" rx="8"/><text class="muted" x="153" y="35">[</text>
+    <rect class="key" x="204" y="-20" width="86" height="70" rx="8"/><text class="muted" x="247" y="15">{</text>
+    <rect class="key" x="298" y="-20" width="86" height="70" rx="8"/><text class="muted" x="341" y="15">}</text>
     <rect class="key" x="392" y="-20" width="86" height="70" rx="8"/><text class="muted" x="435" y="15">(</text>
     <rect class="key" x="486" y="-20" width="86" height="70" rx="8"/><text class="muted" x="529" y="15">=</text>
     <rect class="key" x="580" y="-20" width="86" height="70" rx="8"/><text class="muted" x="623" y="15">Kp</text>
@@ -63,7 +63,7 @@
     <rect class="key" x="282" y="-20" width="86" height="70" rx="8"/><text class="muted" x="325" y="15">+</text>
     <rect class="key" x="376" y="-20" width="86" height="70" rx="8"/><text class="muted" x="419" y="15">]</text>
     <rect class="key" x="470" y="0" width="86" height="70" rx="8"/><text class="muted" x="513" y="35">!</text>
-    <rect class="key" x="564" y="0" width="102" height="70" rx="8"/><text class="muted" x="615" y="35">#</text>
+    <rect class="override" x="564" y="0" width="102" height="70" rx="8"/><text class="legend" x="615" y="29">å</text><text class="small" x="615" y="53">Shift: Å</text>
 
     <rect class="key" x="0" y="58" width="86" height="70" rx="8"/><text class="muted" x="43" y="93">③</text>
     <rect class="key" x="94" y="58" width="86" height="70" rx="8"/><text class="muted" x="137" y="93">F</text>
@@ -71,7 +71,7 @@
     <rect class="key" x="282" y="58" width="86" height="70" rx="8"/><text class="muted" x="325" y="93">C</text>
     <rect class="key" x="376" y="58" width="86" height="70" rx="8"/><text class="muted" x="419" y="93">R</text>
     <rect class="key" x="470" y="78" width="86" height="70" rx="8"/><text class="muted" x="513" y="113">L</text>
-    <rect class="key" x="564" y="78" width="102" height="70" rx="8"/><text class="muted" x="615" y="113">\</text>
+    <rect class="override" x="564" y="78" width="102" height="70" rx="8"/><text class="legend" x="615" y="107">ä</text><text class="small" x="615" y="131">Shift: Ä</text>
 
     <rect class="toggle" x="0" y="136" width="86" height="70" rx="8"/><text class="legend" x="43" y="163">④</text><text class="small" x="43" y="187">toggle off</text>
     <rect class="key" x="94" y="136" width="86" height="70" rx="8"/><text class="muted" x="137" y="171">D</text>
@@ -91,7 +91,7 @@
     <rect class="key" x="188" y="292" width="86" height="70" rx="8"/><text class="muted" x="231" y="327">↑</text>
     <rect class="key" x="282" y="292" width="86" height="70" rx="8"/><text class="muted" x="325" y="327">↓</text>
     <rect class="key" x="376" y="292" width="86" height="70" rx="8"/><text class="muted" x="419" y="327">/</text>
-    <rect class="key" x="470" y="312" width="86" height="70" rx="8"/><text class="muted" x="513" y="347">$</text>
+    <rect class="override" x="470" y="312" width="86" height="70" rx="8"/><text class="legend" x="513" y="341">ö</text><text class="small" x="513" y="365">Shift: Ö</text>
     <rect class="key" x="564" y="312" width="102" height="70" rx="8"/><text class="muted" x="615" y="347">Fn</text>
   </g>
 
