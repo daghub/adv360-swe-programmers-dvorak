@@ -65,10 +65,10 @@ thumb desktop-right key
 Those macros are present on both the top layer and keypad layer:
 
 ```text
-{home}>{-Lctrl}{-Lwin}{d125}{left}{d125}{+Lwin}{+Lctrl}
-{kp-home}>{-Lctrl}{-Lwin}{d125}{left}{d125}{+Lwin}{+Lctrl}
-{pup}>{-Lctrl}{-Lwin}{d125}{right}{d125}{+Lwin}{+Lctrl}
-{kp-pup}>{-Lctrl}{-Lwin}{d125}{right}{d125}{+Lwin}{+Lctrl}
+{home}>{-Lctrl}{-Lwin}{left}{+Lwin}{+Lctrl}
+{kp-home}>{-Lctrl}{-Lwin}{left}{+Lwin}{+Lctrl}
+{pup}>{-Lctrl}{-Lwin}{right}{+Lwin}{+Lctrl}
+{kp-pup}>{-Lctrl}{-Lwin}{right}{+Lwin}{+Lctrl}
 ```
 
 The Advantage360 Pro Swedish prose/forms layer has no equivalent here. The
