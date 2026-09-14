@@ -45,13 +45,30 @@ Home thumb key -> Ctrl+Win+Left
 PgUp thumb key -> Ctrl+Win+Right
 ```
 
+To keep the same Adv360 thumb-cluster tradeoff, use Advantage2 PC thumb mode
+and remap the left Alt thumb position to Windows:
+
+```text
+[lalt]>[kp-lwin]
+[kp-lalt]>[kp-lwin]
+```
+
+That gives the same conceptual set as the Advantage360 Pro:
+
+```text
+thumb Windows key
+thumb Alt key
+thumb desktop-left key
+thumb desktop-right key
+```
+
 Those macros are present on both the top layer and keypad layer:
 
 ```text
-{home}>{-lctrl}{-lwin}{left}{+lwin}{+lctrl}
-{kp-home}>{-lctrl}{-lwin}{left}{+lwin}{+lctrl}
-{pup}>{-lctrl}{-lwin}{right}{+lwin}{+lctrl}
-{kp-pup}>{-lctrl}{-lwin}{right}{+lwin}{+lctrl}
+{home}>{-Lctrl}{-Lwin}{d125}{left}{d125}{+Lwin}{+Lctrl}
+{kp-home}>{-Lctrl}{-Lwin}{d125}{left}{d125}{+Lwin}{+Lctrl}
+{pup}>{-Lctrl}{-Lwin}{d125}{right}{d125}{+Lwin}{+Lctrl}
+{kp-pup}>{-Lctrl}{-Lwin}{d125}{right}{d125}{+Lwin}{+Lctrl}
 ```
 
 The Advantage360 Pro Swedish prose/forms layer has no equivalent here. The
@@ -80,6 +97,8 @@ With the Advantage2 connected and Windows set to Programmer Dvorak:
 ```text
 Home thumb key -> previous Windows virtual desktop
 PgUp thumb key -> next Windows virtual desktop
+left Alt thumb key -> Windows key
+right Alt thumb key -> Alt key
 both moved Shift keys still work as Shift
 old left Shift position still acts as End
 old right Shift position still acts as Page Down
